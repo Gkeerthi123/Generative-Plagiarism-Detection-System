@@ -1,0 +1,38 @@
+
+# Virtual Environment
+venv/
+.venv/
+env/
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# IDE Settings
+.vscode/
+.idea/
+
+# Environment Variables
+.env
+.env.*
+
+# Uploaded Reference Documents
+data/custom_references/*
+!data/custom_references/.gitkeep
+
+# Dataset and Processed Files
+data/raw/
+data/processed/
+
+# Generated AI Models and Indexes
+models/*.faiss
+models/*.pkl
+
+# Temporary Files
+*.log
+*.tmp
+.DS_Store
+
+# Streamlit
+.streamlit/secrets.toml
